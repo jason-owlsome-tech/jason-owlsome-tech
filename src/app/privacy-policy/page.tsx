@@ -8,7 +8,8 @@ export const metadata: Metadata = {
 const PagePrivacyPolicy = () => {
   return (
     <div className="mx-5 my-25">
-      <h1>[產業與企業人才資料庫] 隱私權政策 (備份)</h1>
+      <h1>[產業與企業人才資料庫]</h1>
+      <h1>隱私權政策 (備份)</h1>
       <div>
         目前
         <a
