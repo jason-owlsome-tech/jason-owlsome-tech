@@ -1,4 +1,5 @@
 import Image from "next/image";
+import OwlsomeTechPng from "@/src/image/owlsome-tech.png";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
       >
         <div className="relative w-5 h-5">
           <Image
-            src="/owlsome-tech.png"
+            src={OwlsomeTechPng}
             alt="Owlsome-tech logomark"
             layout="fill"
           />
