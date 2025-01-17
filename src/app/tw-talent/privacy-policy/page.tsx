@@ -8,17 +8,19 @@ export const metadata: Metadata = {
 const PagePrivacyPolicy = () => {
   return (
     <div className="mx-5 my-25">
-      <h1>[產業與企業人才資料庫]</h1>
-      <h1>隱私權政策 (備份)</h1>
-      <div>
-        目前
-        <a
-          className="text-blue-600 visited:text-purple-600 hover:underline"
-          href="https://www.twtalent.net/"
-        >
-          網站
-        </a>
-        正在積極搶修中
+      <h1 className="text-2xl pt-2">產業與企業人才資料庫</h1>
+      <div className="flex items-end space-x-2">
+        <h1 className="text-3xl pt-2">隱私權政策 (備份)</h1>
+        <div className="text-base text-red-500">
+          目前
+          <a
+            className="text-blue-600 visited:text-purple-600 hover:underline"
+            href="https://www.twtalent.net/"
+          >
+            網站
+          </a>
+          正在積極搶修中
+        </div>
       </div>
       <div>
         歡迎您光臨「產業與企業人才資料庫」。為確保您在本網站上的使用體驗安心，並保護您的隱私權益，特此說明本網站的隱私權保護政策，請您詳閱以下內容。
